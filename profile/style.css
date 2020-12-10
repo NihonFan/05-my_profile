@@ -1,0 +1,138 @@
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+/*fonts example @import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");*/
+@import url('https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap');
+
+/*all - headers - classes? or more stuff~~~*/
+
+body {
+  background-color: rgba(230, 230, 230, 0.6);
+  font-family: Garamond, serif;
+  font-size: 18px;
+  line-height: 24px;
+  color: rgba(81, 102, 91, 1.0);
+}
+
+.container {
+  text-align: center;
+  margin: 40px auto;
+  width: 700px;
+}
+
+.card {
+  margin: 20px 0px;
+  padding: 40px;
+  background-color: white;
+  box-shadow: 0 0 50px rgba(220, 220, 220, 1.0);
+  border-radius: 5px;
+}
+
+h1, h2, h3 {
+  color: #50C6CC;
+  font-family: Calibry, sans-serif;
+  font-size: 32px;
+  line-height: 24px;
+}
+
+h1 {
+  color: #6A9799;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+.btn {
+  padding: 16px;
+  background-color: #996B89;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+}
+
+.btn:hover {
+  background-color: #733E46;
+}
+
+a {
+  font-family: Calibry, sans-serif;
+  text-decoration: none;
+  font-size: 40px;
+}
+
+i {
+  color: rgba(153, 107, 137, 0.6);
+}
+i:hover {
+  color: #733E46;
+}
+
+li {
+  display: inline;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0px;
+  /*margin: 0;*/
+}
+
+/*img div id*/
+/*#profile_pic {
+  height: 30%;
+}*/
+
+img {
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: 0 38%;
+  width: 100px;
+  height: 100px;
+}
+
+/*fun font check*/
+#spe_kr {
+  font-family: 'East Sea Dokdo', cursive;
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .container {
+    width: 70%;
+    background-color: red;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .container {
+    width: 480px;
+    background-color: green;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .container {
+    width: 600px;
+    background-color: blue;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .container {
+    width: 768px;
+    background-color: yellow;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .container {
+    width: 992px;
+    background-color: purple;
+  }
+}
